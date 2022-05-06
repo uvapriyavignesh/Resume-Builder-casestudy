@@ -1,0 +1,95 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(51, 51, 187);
+
+  overflow: hidden;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button {
+  background-color: rgb(51, 51, 187);
+  color: white;
+  font-size: 16px;
+
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.dtitle {
+  text-align: center;
+  font-size: larger;
+}
+.thank {
+  text-align: center;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#headertitle {
+  margin-right: 45%;
+}
+#logina {
+  float: left;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+h3 {
+  padding: 1%;
+  padding-top: 2%;
+  text-align: center;
+}
+h4 {
+  padding: 1%;
+  padding-top: 2%;
+  text-align: center;
+}
+hr {
+  height: 120px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  padding: 5x;
+}
+
+.form-control {
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  margin: 2%;
+  text-align: center;
+}
+button {
+  float: right;
+  margin-right: 13%;
+  width: 70px;
+}
+#nxtbutton {
+  float: left;
+  margin-left: 4%;
+  width: 70px;
+}
